@@ -1,2 +1,28 @@
-# crop_prediction
-This project predicts the optimal crop for a field based on soil metrics (Nitrogen, Phosphorous, Potassium, and pH). Using the provided soil_measures.csv dataset, we build multi-class classification models to recommend suitable crops and analyze the most important features influencing crop prediction.
+# Predictive Modeling for Agriculture
+
+This project predicts crop types based on soil nutrient composition using **Logistic Regression**.  
+The goal is to identify which soil feature (Nitrogen, Phosphorus, Potassium, pH) has the strongest predictive performance for classifying crops.  
+
+---
+
+##  Project Workflow
+1. **Load and Explore Data**  
+   - Checked for missing values  
+   - Identified unique crop types  
+
+2. **Preprocessing**  
+   - Train-test split  
+   
+3. **Model Training**  
+   - Trained logistic regression models on each soil feature individually  
+
+4. **Evaluation**  
+   - Used **weighted F1-score** 
+   - Compared performance across features  
+
+5. **Result**  
+   - Potassium (K) was found to be the most predictive soil feature.  
+
+---
+
+
