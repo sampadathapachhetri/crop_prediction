@@ -1,0 +1,5 @@
+pandas
+scikit-learn
+
+Install all dependencies with:
+pip install -r requirements.txt
