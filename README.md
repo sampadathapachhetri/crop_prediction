@@ -24,5 +24,11 @@ The goal is to identify which soil feature (Nitrogen, Phosphorus, Potassium, pH)
    - Potassium (K) was found to be the most predictive soil feature.  
 
 ---
+## Installation
+
+Install all dependencies with:
+
+```bash
+pip install -r requirements.txt
 
 
